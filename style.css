@@ -1,0 +1,146 @@
+p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+para1 {
+	font-size: 20px;
+    text-align: center;
+    color: white; 
+}
+
+h1 {
+	color: white;
+	font-size: 75px;
+	text-align: center;
+}
+
+
+.buttonleft {
+    position: absolute; left: 5px; top: 450px;
+    float:left;
+    border: none;
+     background-color: rgba(0, 0, 255, 0.3);
+    font-size: 28px;
+    padding: 20px;
+    width: 20px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+     cursor: pointer;
+    
+}
+
+.buttonleft:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 1000;
+    transition: all 0.8s
+}
+
+.buttonleft:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.buttonright {
+    position: absolute; right: 5px; top: 450px;
+    float: right;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.3);
+    font-size: 28px;
+    padding: 20px;
+    width: 20px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.buttonright:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 1000;
+    transition: all 0.8s
+}
+
+.buttonright:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.button {
+    position: relative;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.3);
+    padding: 20px;
+    padding-left: 20px;
+    width: 20px;
+    height: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.mySlides {
+	padding-left: 40px;
+	width:45%;
+	position = relative;
+
+	opacity:0.9;
+	
+}
+.myRightSlides {
+
+	width:45%;
+	position = relative;
+	
+	opacity:0.9;
+	
+	
+}
+

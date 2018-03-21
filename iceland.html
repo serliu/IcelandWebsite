@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Iceland</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <h1>I   .   C   .   E   .   L   .   A   .   N   .   D </h1>
+    </head>
+
+    <body background="northernlights.jpg">
+
+          
+         
+
+
+        <div class="slides">
+          <button class="buttonright" onclick="plusDivs(1, 'mySlides')">&#10095;</button>
+
+            
+       
+
+         <img class="mySlides" src="IMG_1872.JPG" >
+           <img class = "myRightSlides" src="IMG_1872.JPG">
+         
+          <img class="mySlides" src="IMG_1946.JPG" >
+          
+          <img class="mySlides" src="IMG_1958.JPG" >
+          
+          <img class="mySlides" src="IMG_1972.JPG" >
+          
+          <img class = "mySlides" src="IMG_1955.JPG" > 
+          
+          <img class = "mySlides" src="IMG_1982.JPG" > 
+         
+          <img class="mySlides" src="IMG_1669.JPG" >
+  
+          <img class="mySlides" src="IMG_1711.JPG" >
+          
+          <img class="mySlides" src="IMG_1751.JPG">
+          
+          <img class="mySlides" src="IMG_1814.JPG" >
+          
+          <img class = "mySlides" src="IMG_1790.JPG" > 
+          
+          <img class = "mySlides" src="IMG_1820.JPG"> 
+
+            <button class="buttonleft" onclick="plusDivs(-1, 'myRightSlides')">&#10094;</button>
+       
+         <img class = "myRightSlides" src="IMG_1972.JPG">
+         <img class = "myRightSlides" src="IMG_1958.JPG">
+         <img class = "myRightSlides" src="IMG_1872.JPG">
+         <img class = "myRightSlides" src="IMG_1872.JPG">
+          <img class = "myRightSlides" src="IMG_1872.JPG">
+                  <img class = "myRightSlides" src="IMG_1872.JPG">
+                  <img class = "myRightSlides" src="IMG_1872.JPG">
+                  <img class = "myRightSlides" src="IMG_1872.JPG">
+                  <img class = "myRightSlides" src="IMG_1872.JPG">
+                  <img class = "myRightSlides" src="IMG_1872.JPG">
+
+
+          </div>
+       
+
+        <script>
+        
+        var slideIndex = 1;
+        showDivs(slideIndex,str);
+
+        function plusDivs(n, str) {
+          showDivs(slideIndex += n, str);
+        }
+
+        function showDivs(n,str) {
+          var i;
+          var x = document.getElementsByClassName(str);
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+
+
+
+
+</html>
